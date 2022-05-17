@@ -6,6 +6,8 @@ RoxygenNote: 7.1.2
 Imports: 
     ggplot2,
     rlang,
-    zen4R
+    zen4R,
+    jvamisc
 Remotes:
-    eblondel/zen4R
+    eblondel/zen4R,
+    JVAdams/jvamisc
