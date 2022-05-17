@@ -4,6 +4,5 @@ Title: Temperature Conversion Package for Demonstration
 Version: 0.0.1.0
 RoxygenNote: 7.1.2
 Imports: 
+    ggplot2,
     rlang
-Remotes:
-    github::eblondel/zen4R
