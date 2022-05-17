@@ -23,6 +23,9 @@ F_to_C <- function(F_temp){
 #' temp2 <- C_to_F( c(-2, 12, 23) );
 #' @export
 C_to_F <- function(C_temp){
+  a <- terra::rast(ncols=40, nrows=40, xmin=-110, xmax=-90, ymin=40, ymax=60, 
+            crs="+proj=longlat +datum=WGS84")
   F_temp <- (C_temp * 9/5) + 32;
   return(F_temp);
 }
+
