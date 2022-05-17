@@ -5,4 +5,7 @@ Version: 0.0.1.0
 RoxygenNote: 7.1.2
 Imports: 
     ggplot2,
-    rlang
+    rlang,
+    zen4R
+Remotes:
+    eblondel/zen4R
